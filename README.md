@@ -4,6 +4,8 @@ Complete zero-copy integration between RoboSense LiDAR hardware (via rs_driver) 
 
 ## Quick Start
 
+If you just want to use the plugin get the dll and example file from the release folder or link to the right -->
+
 **What you need to build:**
 
 - Visual Studio 2019/2022 (Windows only)
