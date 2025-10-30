@@ -1,0 +1,60 @@
+# ================================================
+# RoboSense TouchDesigner Plugin
+# ================================================
+
+# TouchDesigner Files
+/Backup/
+RSLidar.*.toe
+
+CrashAutoSave*.toe
+TouchDesignerCrash*.dmp
+
+# Build artifacts
+build/
+**/Release/
+**/Debug/
+**/x64/
+**/x86/
+**/.vs/
+*.user
+*.log
+*.obj
+*.pdb
+*.ilk
+*.dll.recipe
+*.exe.recipe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Dependencies (these are reference folders)
+CustomOperatorSamples/
+SlamtecCHOP/
+touchosc/
+
+# SDK archives and dependencies
+rs_driver/
+npcap-sdk/
+
+# Temporary files
+nul
+*.tmp
+*.bak
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
